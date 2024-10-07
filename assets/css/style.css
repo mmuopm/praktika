@@ -167,6 +167,108 @@ header a {
   display: flex;
   gap: 30px;
   align-items: center;
-  margin-top: 80px ;
+  margin-top: 80px;
   margin-left: 403px;
+}
+
+.blockmob {
+  display: none;
+}
+
+@media (max-width: 414px) {
+  .block header nav,
+  .block header button,
+  .block header .login {
+    display: none;
+  }
+
+  #logodek {
+    display: none;
+  }
+
+  .blockmob {
+    display: flex;
+    gap: 150px;
+    background-color: #fff;
+    height: 532px;
+  }
+
+  .head1 {
+    margin-top: 30px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+  }
+
+  .head1 .logomob {
+    color: black;
+    font-size: 24px;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  .buttonsmob {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    height: 24px;
+  }
+
+  .headlinks {
+    margin-top: 80px;
+  }
+
+  .blockmob a {
+    font-size: 30px;
+    color: #737373;
+    display: block;
+    margin-top: 30px;
+    font-family: "reg";
+    text-align: center;
+  }
+
+  .block {
+    height: 1384px;
+  }
+
+  .block h1 {
+    font-size: 40px;
+    margin-top: 60px;
+  }
+
+  .blockp {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .buttons {
+    display: inline;
+    margin-left: 50px;
+  }
+
+  .block .cards {
+    display: block;
+    margin-left: 40px;
+  }
+
+  .block .cards .card {
+    margin-bottom: 30px;
+  }
+
+  .block2 {
+    height: 950px;
+  }
+
+  .cards2 {
+    display: block;
+    margin-left: 40px;
+  }
+  .cards3 {
+    display: block;
+    margin-left: 40px;
+  }
+
+  .cards3 img {
+    margin-bottom: 30px;
+  }
 }
