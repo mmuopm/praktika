@@ -1,0 +1,172 @@
+@font-face {
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+  font-family: "extbold";
+}
+
+@font-face {
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-family: "reg";
+}
+
+body {
+  font-family: "extbold";
+  background-color: #fafafa;
+}
+
+header .btn1 {
+  background-color: #23a6f0;
+  font-size: 14px;
+}
+
+header a {
+  font-size: 14px;
+}
+
+.block a,
+.block span,
+.block button,
+.block h1,
+.block p {
+  color: #fff;
+}
+
+.block {
+  background-image: url(../img/background.png);
+  width: 100%;
+  height: 860px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  position: absolute; */
+}
+
+.block h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.blockp {
+  text-align: center;
+  font-family: "reg";
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 40px;
+  margin-left: 780px;
+  display: flex;
+  gap: 20px;
+}
+
+.block .btn2,
+.block .btn3 {
+  font-size: 14px;
+  border-radius: 25px;
+}
+
+.block .btn3 {
+  border: 1px solid #fff;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 100px;
+  margin-left: 399px;
+}
+
+.cards .card {
+  background-color: #fff;
+  width: 328px;
+  height: 201px;
+}
+
+.card-content {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.cards .card h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cards .card p {
+  font-size: 14px;
+  color: #737373;
+  font-family: "reg";
+}
+
+.cards .card3 {
+  background-color: #23a6f0;
+  color: #fff;
+}
+
+.cards .card3 p {
+  color: #fff;
+}
+
+.block2 {
+  margin-top: 150px;
+  width: 100%;
+  background-color: #fff;
+  height: 475px;
+}
+
+.cards2 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-top: 96px;
+  margin-left: 400px;
+}
+
+.card-content2 {
+  width: 329px;
+  height: 243px;
+  text-align: center;
+}
+
+.card-content2 img {
+  margin: 50px 130px 20px;
+}
+
+.card-content2 h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-content2 p {
+  font-size: 14px;
+  font-family: "reg";
+  color: #737373;
+}
+
+.block3 {
+  background-color: #fafafa;
+  height: 872px;
+}
+
+.block3 h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 112px;
+}
+
+.block3 p {
+  font-size: 14px;
+  font-family: "reg";
+  color: #737373;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cards3 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 80px ;
+  margin-left: 403px;
+}
